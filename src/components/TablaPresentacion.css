@@ -1,0 +1,141 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  thead th {
+    border: 1px solid #000000;
+    font-size: 10px;
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-weight: normal;
+  }
+  
+  tbody td,
+  tbody th {
+    border: 1px solid #000000;
+    font-size: 15px;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #6bca12; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+    padding: 10px 20px; /* Aumenta el espacio alrededor del texto */
+    border: 1px solid #000; /* Elimina el borde */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Agrega una transición */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* Cambia el color de fondo al pasar el ratón por encima */
+  }
+  
+  .celda-contador {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .fila-total {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* .encabezado {
+    border: 1px solid #000000;
+    font-size: 12px;
+    padding: 1px;
+    text-align: center;
+  } */
+  
+  .tabla-container {
+    width: 49%;
+    float: left;
+  }
+  .tabla-container-derecha {
+    width: 49%;
+    float: right;
+  }
+  
+  .tabla-izquierda {
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 2px;
+  }
+  
+  .tabla-derecha {
+    width: 98%;
+    border-collapse: collapse;
+    margin-right: 2px;
+  }
+  
+  .container {
+    border: 1px solid black; /* Agrega el borde de 1px de ancho y color negro */
+    width: 98%; /* Ajusta el ancho del div */
+    margin: 1px; /* Centra horizontalmente el div */
+    padding: 1px; /* Agrega un espacio interno alrededor del contenido del div */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color: #B5B5B5;
+    font-size: small;
+  }
+  
+  .container2 {
+    border: 1px solid black; /* Agrega el borde de 1px de ancho y color negro */
+    width: 98%; /* Ajusta el ancho del div */
+    margin: 1px; /* Centra horizontalmente el div */
+    padding: 1px; /* Agrega un espacio interno alrededor del contenido del div */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color: #00ccff;
+    font-size: small;
+  }
+
+  .container3 {
+    border: 1px solid black; /* Agrega el borde de 1px de ancho y color negro */
+    width: 98%; /* Ajusta el ancho del div */
+    margin: 1px; /* Centra horizontalmente el div */
+    padding: 1px; /* Agrega un espacio interno alrededor del contenido del div */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color: lightcoral;
+    font-size: 18px;
+  }
+  
+  .container-pie {
+    border: 1px solid black; /* Agrega el borde de 1px de ancho y color negro */
+    width: 98%; /* Ajusta el ancho del div */
+    margin: 1px; /* Centra horizontalmente el div */
+    padding: 1px; /* Agrega un espacio interno alrededor del contenido del div */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color: #B5B5B5;
+    clear: both;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .container-pie2 {
+    width: 98%; /* Ajusta el ancho del div */
+    margin: 1px; /* Centra horizontalmente el div */
+    padding: 1px; /* Agrega un espacio interno alrededor del contenido del div */
+    text-align: center; /* Centra el texto horizontalmente */
+    clear:both;
+    font-size: small;
+    background-color: #B5B5B5;
+    border: 1px solid black; /* Agrega el borde de 1px de ancho y color negro */
+  }
+  .container-calendar {
+    width: 50%; /* Ajusta el ancho del div */
+    margin: 0 auto; /* Centra horizontalmente el div */
+    padding: 1px; /* Agrega un espacio interno alrededor del contenido del div */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  
